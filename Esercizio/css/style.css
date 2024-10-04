@@ -1,7 +1,36 @@
+/* Whole Body */
 body {
   width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #393d41be;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.65;
 }
 
+section {
+  padding: 1em 0;
+}
+
+/* H1 H2 H3 */
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #25a2c3;
+}
+
+h1 {
+  margin: 1em 0;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+}
+
+/* Header */
 header {
   background-color: #080404;
   text-align: center;
@@ -11,3 +40,57 @@ header img {
   width: 200px;
   margin: 2em 0;
 }
+
+/* First Section */
+
+.first-section {
+  background-image: url(/Esercizio/images/banner.jpg);
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  height: 350px;
+}
+
+.first-section p {
+  margin-right: 3em;
+  margin-left: 3em;
+  line-height: 1.65rem;
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+
+button {
+  background-color: #f04c2f;
+  color: white;
+  font-weight: 700;
+  display: inline-block;
+  border-radius: 5%;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 12px 30px;
+  border: none;
+}
+
+Button:hover {
+  background-color: #bf2a2a;
+}
+Button:active {
+  position: relative;
+  top: 1px;
+}
+
+/* Second Section */
+.second-section h3 {
+  margin-top: 2em;
+}
+.second-section p {
+  margin: 0.5em 3em;
+}
+
+.second-section img {
+  padding-top: 1em;
+  height: 250px;
+  border-radius: 50%;
+}
+
+/* Third Section */
