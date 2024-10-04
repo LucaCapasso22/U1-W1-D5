@@ -1,3 +1,5 @@
+/* Ho diviso l'intero progetto in sezioni e date specifiche individuali per ognuno */
+
 /* Whole Body */
 body {
   width: 450px;
@@ -32,7 +34,7 @@ h1 {
 
 /* Header */
 header {
-  background-color: #080404;
+  background-color: #000000;
   text-align: center;
 }
 
@@ -94,3 +96,133 @@ Button:active {
 }
 
 /* Third Section */
+.third-section {
+  margin-top: 1em;
+  background-color: #e22d0e;
+  color: white;
+}
+
+.third-section p:first-of-type {
+  margin: 1em 0;
+  font-style: oblique;
+  font-size: 0.8em;
+  font-weight: 400;
+}
+.third-section h2 {
+  padding-top: 1em;
+  font-size: 1.75rem;
+  color: white;
+}
+
+.third-section h3 {
+  color: white;
+  font-weight: 500;
+}
+
+.third-section p:nth-of-type(2) {
+  font-size: 0.7em;
+  font-weight: 400;
+}
+
+/* Fourth Section */
+.fourth-section {
+  margin-top: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0;
+  width: 410px;
+  border: 1px solid #dee1e3;
+}
+.fourth-section img {
+  margin-top: em;
+  margin-bottom: 1em;
+  width: 410px;
+}
+
+.fourth-section p {
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-bottom: 1em;
+}
+
+/* fifth Section */
+.fifth-section {
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0;
+  width: 410px;
+  border: 1px solid #dee1e3;
+}
+.fifth-section img {
+  margin-top: em;
+  margin-bottom: 1em;
+  width: 410px;
+}
+
+.fifth-section p {
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-bottom: 1em;
+}
+
+/* sixth Section */
+.sixth-section {
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0;
+  width: 410px;
+  border: 1px solid #dee1e3;
+}
+.sixth-section img {
+  margin-top: em;
+  margin-bottom: 1em;
+  width: 410px;
+}
+
+.sixth-section p {
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-bottom: 1em;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 4em;
+  background-color: #25a2c3;
+  color: white;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer h2 {
+  color: white;
+  font-size: 1.7em;
+  padding: 1em;
+}
+
+footer p:nth-of-type(1) {
+  text-decoration: underline;
+}
+footer p:nth-of-type(2) {
+  text-decoration: underline;
+}
+
+footer p:nth-of-type(3) {
+  margin-bottom: 1.5em;
+}
+
+footer p:nth-of-type(4) {
+  margin-top: 1.5em;
+  text-decoration: none;
+}
+
+footer hr {
+  width: 220px;
+  border: 1px solid white;
+}
